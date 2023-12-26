@@ -8,7 +8,7 @@ const About = () => {
                     <img src={web} className='w-80' />
                     <div className='lg:w-1/2'>
                         <h1 className="text-3xl lg:text-5xl font-bold text-sky-600">About Me</h1>
-                        <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <p className="py-6">I am a passionate Full Stack web developer with strong foundational skills in HTML, CSS, JavaScript, and hands-on experience in MongoDB, Express.js, React.js, and Node.js. I'm Quick learner, adaptable, and problem-solver, eager to contribute to dynamic development projects. Seeking collaborative opportunities to learn, grow, and contribute to innovative web solutions.</p>
                     </div>
                 </div>
             </div>
