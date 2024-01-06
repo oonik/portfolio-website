@@ -1,6 +1,3 @@
-import img1 from '../../../assets/Card-img/luxurious-hotel-ee862.web.app_(iPhone SE) (2).png';
-import img2 from '../../../assets/Card-img/lovely-empanada-b05325.netlify.app_(iPhone SE).png';
-import img3 from '../../../assets/Card-img/gilded-axolotl-ad3e39.netlify.app_(iPhone SE) (1).png';
 import { Link } from 'react-router-dom';
 
 const Projects = () => {
@@ -10,7 +7,9 @@ const Projects = () => {
             <h1 className="text-3xl mb-14 lg:text-5xl font-bold text-sky-600 text-center">Portfolio</h1>
             <section className='grid md:grid-cols-2 lg:grid-cols-3 gap-4 justify-center items-center'>
                 <div className="card bg-base-100 shadow-xl">
-                    <div className='overflow-y-auto h-64 no-scrollbar border-y border-blue-200 rounded-2xl'><img src={img1} className='p-4' alt="" /></div>
+                    <div className='h-full border-y border-blue-200 rounded-2xl'>
+                        <img src="https://i.postimg.cc/vmJtCdvS/Screenshot-2024-01-06-183413-1.png" className='p-4' alt="" />
+                        </div>
                     <div className="card-body">
                         <ul className='overflow-y-auto no-scrollbar h-28 list-disc list-inside pb-5'>
                             <h2 className="card-title">Luxurious Hotel</h2>
@@ -29,7 +28,9 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="card bg-base-100 shadow-xl">
-                    <div className='overflow-y-auto h-64 no-scrollbar border-y border-sky-200 rounded-2xl'><img src={img2} className='p-4' alt="" /></div>
+                    <div className='h-full border-y border-sky-200 rounded-2xl'>
+                        <img src="https://i.postimg.cc/vTGthtQP/Screenshot-3.png" className='p-4' alt="" />
+                    </div>
                     <div className="card-body">
                         <ul className='overflow-y-auto no-scrollbar h-28 list-disc list-inside pb-5'>
                             <h2 className="card-title">Travel & Tour</h2>
@@ -48,7 +49,9 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="card bg-base-100 shadow-xl">
-                    <div className='overflow-y-auto h-64 no-scrollbar border-y border-blue-200 rounded-2xl'><img src={img3} className='p-4' alt="" /></div>
+                    <div className='h-full border-y border-blue-200 rounded-2xl'>
+                        <img src="https://i.postimg.cc/0QNVqqMY/Screenshot-2024-01-06-184459-111.png" className='p-4' alt="" />
+                        </div>
                     <div className="card-body">
                         <ul className='overflow-y-auto no-scrollbar h-28 list-disc list-inside pb-5'>
                             <h2 className="card-title">Doctor Portal</h2>

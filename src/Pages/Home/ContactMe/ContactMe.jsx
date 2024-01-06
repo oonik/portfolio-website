@@ -10,7 +10,7 @@ const ContactMe = () => {
     return (
         <section className='flex flex-col md:flex-row items-center m-10'>
             <div className='md:w-1/2'>
-                <img src={contactImg} alt="" className='h-96' />
+                <img src={contactImg} alt="" className='max-h-80' />
             </div>
             <div className='md:w-1/2'>
                 <h1 className='text-3xl lg:text-5xl font-bold text-sky-600 mb-5'>Contact Me</h1>
