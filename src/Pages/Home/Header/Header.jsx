@@ -3,19 +3,7 @@ import { Typewriter } from 'react-simple-typewriter';
 import bg from '../../../assets/Header-svg/The Little Things - Working.png';
 import pdf from '../../../../public/Resume_Anik (1).pdf';
 
-const PDF_FILE_URL = 'http://localhost:5173/Resume_Anik(1).pdf'
-
 const Header = () => {
-
-    // const downloadResume = (url) => {
-    //     const fileName = url.split("/").pop();
-    //     const aTag = document.createElement('a');
-    //     aTag.href=url
-    //     aTag.setAttribute("download", fileName);
-    //     document.body.appendChild(aTag);
-    //     aTag.click();
-    //     aTag.remove();
-    // }
 
     return (
         <div className="hero lg:min-h-screen">
