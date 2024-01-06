@@ -7,22 +7,22 @@ const Projects = () => {
 
     return (
         <div className="mx-10 my-20">
-            <h1 className="text-3xl mb-14 lg:text-5xl font-bold text-sky-600 text-center">Projects</h1>
-            <section className='grid lg:grid-cols-3 gap-4 justify-center items-center'>
-                <div className="card glass">
-                    <div className='overflow-y-auto h-64 rounded-2xl no-scrollbar'><img src={img1} className='rounded-2xl' alt="" /></div>
+            <h1 className="text-3xl mb-14 lg:text-5xl font-bold text-sky-600 text-center">Portfolio</h1>
+            <section className='grid md:grid-cols-2 lg:grid-cols-3 gap-4 justify-center items-center'>
+                <div className="card bg-base-100 shadow-xl">
+                    <div className='overflow-y-auto h-64 no-scrollbar border-y border-blue-200 rounded-2xl'><img src={img1} className='p-4' alt="" /></div>
                     <div className="card-body">
                         <h2 className="card-title">Luxurious Hotel</h2>
                         <p>Hotel Room Ticket Book Website</p>
                         <div className="card-actions justify-center">
-                            <button className="btn btn-sm border-2 bg-gradient-to-r from-white to-sky-300 bg-white"><Link to="https://luxurious-hotel-ee862.web.app/" target='_blank'>Live Link</Link></button>
+                            <button className="btn btn-sm border-2  bg-gradient-to-r from-white to-sky-300 bg-white"><Link to="https://luxurious-hotel-ee862.web.app/" target='_blank'>Live Link</Link></button>
                             <button className="btn btn-sm border-2 bg-gradient-to-r from-white to-sky-300 bg-white"><Link to="https://github.com/oonik/luxurious-hotel" target='_blank'>Code Client</Link></button>
                             <button className="btn btn-sm border-2 bg-gradient-to-r from-white to-sky-300 bg-white"><Link to="https://github.com/oonik/luxurious-hotel-server" target='_blank'>Code Server</Link></button>
                         </div>
                     </div>
                 </div>
-                <div className="card glass">
-                    <div className='overflow-y-auto h-64 rounded-2xl no-scrollbar'><img src={img2} className='rounded-2xl' alt="" /></div>
+                <div className="card bg-base-100 shadow-xl">
+                    <div className='overflow-y-auto h-64 no-scrollbar border-y border-sky-200 rounded-2xl'><img src={img2} className='p-4' alt="" /></div>
                     <div className="card-body">
                         <h2 className="card-title">Travel & Tour</h2>
                         <p>Travel Ticket Book Website</p>
@@ -33,13 +33,13 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card glass">
-                    <div className='overflow-y-auto h-64 rounded-2xl no-scrollbar'><img src={img3} className='rounded-2xl' alt="" /></div>
+                <div className="card bg-base-100 shadow-xl">
+                    <div className='overflow-y-auto h-64 no-scrollbar border-y border-blue-200 rounded-2xl'><img src={img3} className='rounded-2xl' alt="" /></div>
                     <div className="card-body">
                         <h2 className="card-title">Doctor Portal</h2>
                         <p>Book Doctor Appointment</p>
                         <div className="card-actions justify-center">
-                        <button className="btn btn-sm border-2 bg-gradient-to-r from-white to-sky-300 bg-white"><Link to="https://gilded-axolotl-ad3e39.netlify.app/" target='_blank'>Live Link</Link></button>
+                            <button className="btn btn-sm border-2 bg-gradient-to-r from-white to-sky-300 bg-white"><Link to="https://gilded-axolotl-ad3e39.netlify.app/" target='_blank'>Live Link</Link></button>
                             <button className="btn btn-sm border-2 bg-gradient-to-r from-white to-sky-300 bg-white"><Link to="https://github.com/oonik/doctors-portal-client" target='_blank'>Code Client</Link></button>
                             <button className="btn btn-sm border-2 bg-gradient-to-r from-white to-sky-300 bg-white"><Link to="https://github.com/oonik/doctors-portal-server" target='_blank'>Code Server</Link></button>
                         </div>
