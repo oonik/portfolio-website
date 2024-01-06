@@ -34,7 +34,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="card bg-base-100 shadow-xl">
-                    <div className='overflow-y-auto h-64 no-scrollbar border-y border-blue-200 rounded-2xl'><img src={img3} className='rounded-2xl' alt="" /></div>
+                    <div className='overflow-y-auto h-64 no-scrollbar border-y border-blue-200 rounded-2xl'><img src={img3} className='p-4' alt="" /></div>
                     <div className="card-body">
                         <h2 className="card-title">Doctor Portal</h2>
                         <p>Book Doctor Appointment</p>

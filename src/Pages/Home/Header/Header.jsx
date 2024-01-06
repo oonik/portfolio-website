@@ -1,9 +1,22 @@
 import './Header.css';
 import { Typewriter } from 'react-simple-typewriter';
 import bg from '../../../assets/Header-svg/The Little Things - Working.png';
+import pdf from '../../../../public/Resume_Anik (1).pdf';
+
+const PDF_FILE_URL = 'http://localhost:5173/Resume_Anik(1).pdf'
 
 const Header = () => {
-    
+
+    // const downloadResume = (url) => {
+    //     const fileName = url.split("/").pop();
+    //     const aTag = document.createElement('a');
+    //     aTag.href=url
+    //     aTag.setAttribute("download", fileName);
+    //     document.body.appendChild(aTag);
+    //     aTag.click();
+    //     aTag.remove();
+    // }
+
     return (
         <div className="hero lg:min-h-screen">
             <div className="hero-content flex-col md:flex-row-reverse lg:flex-row-reverse">
@@ -31,7 +44,14 @@ const Header = () => {
                         </span>
                     </h1>
                     <p className="py-6 text-white">Self-taught programmer with proficiency in MERN stack, solid understanding of JavaScript, HTML and CSS. Committed to continuous learning and staying updated with industry trends. Skilled in creating responsive user interfaces and building RESTful APIs.</p>
-                    <button className="btn btn-primary bg-sky-600 border-0 text-white">Get Started</button>
+                    {/* download button */}
+                    <a
+                        className="btn btn-primary bg-sky-600 border-0 text-white"
+                        href={pdf}
+                        download="Resume_Anik(1).pdf"
+                        target="_blank"
+                        rel="noreferrer"
+                    >Resume</a>
                 </div>
             </div>
         </div>

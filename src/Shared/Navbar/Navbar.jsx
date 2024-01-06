@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import pdf from '../../../public/Resume_Anik (1).pdf';
 import logo from '../../assets/Red_Purple_Modern_Minimalist_Initial_AS_Letter_Logo-removebg-preview.png'
 
 const Navbar = () => {
@@ -26,7 +27,13 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Button</a>
+            <a
+                        className="btn btn-primary bg-white border-0 text-sky-500"
+                        href={pdf}
+                        download="Resume_Anik(1).pdf"
+                        target="_blank"
+                        rel="noreferrer"
+                    >Resume</a>
             </div>
         </div>
     );
