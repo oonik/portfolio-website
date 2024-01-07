@@ -8,7 +8,7 @@ const Projects = () => {
             <section className='grid md:grid-cols-2 lg:grid-cols-3 gap-4 justify-center items-center'>
                 <div className="card bg-base-100">
                     <div className='h-full border-y border-blue-200 rounded-2xl'>
-                        <img src="https://i.postimg.cc/vmJtCdvS/Screenshot-2024-01-06-183413-1.png" className='p-4 overflow-x-hidden' alt="" />
+                        <img src="https://i.postimg.cc/vmJtCdvS/Screenshot-2024-01-06-183413-1.png" className='p-4 w-full' alt="" />
                         </div>
                     <div className="card-body">
                         <ul className='overflow-y-auto no-scrollbar h-28 list-disc list-inside pb-5'>
@@ -29,7 +29,7 @@ const Projects = () => {
                 </div>
                 <div className="card bg-base-100">
                     <div className='h-full border-y border-sky-200 rounded-2xl'>
-                        <img src="https://i.postimg.cc/vTGthtQP/Screenshot-3.png" className='p-4 overflow-x-hidden' alt="" />
+                        <img src="https://i.postimg.cc/vTGthtQP/Screenshot-3.png" className='p-4 w-full' alt="" />
                     </div>
                     <div className="card-body">
                         <ul className='overflow-y-auto no-scrollbar h-28 list-disc list-inside pb-5'>
@@ -50,7 +50,7 @@ const Projects = () => {
                 </div>
                 <div className="card bg-base-100">
                     <div className='h-full border-y border-blue-200 rounded-2xl'>
-                        <img src="https://i.postimg.cc/0QNVqqMY/Screenshot-2024-01-06-184459-111.png" className='p-4 overflow-x-hidden' alt="" />
+                        <img src="https://i.postimg.cc/0QNVqqMY/Screenshot-2024-01-06-184459-111.png" className='p-4 w-full' alt="" />
                         </div>
                     <div className="card-body">
                         <ul className='overflow-y-auto no-scrollbar h-28 list-disc list-inside pb-5'>
