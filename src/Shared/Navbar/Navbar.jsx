@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import pdf from '../../../public/Resume_Anik (1).pdf';
 import logo from '../../assets/Red_Purple_Modern_Minimalist_Initial_AS_Letter_Logo-removebg-preview.png'
 
 const Navbar = () => {
@@ -8,6 +7,7 @@ const Navbar = () => {
       <li className="text-lg text-white"><Link to='/skill'>Skills</Link></li>
       <li className="text-lg text-white"><Link to='/about'>About</Link></li>
       <li className="text-lg text-white"><Link to='/project'>Project</Link></li>
+      <li className="text-lg text-white"><Link to='/contactMe'>Contact-Me</Link></li>
     </>
     return (
         <div className="navbar bg-sky-600 h-12 sticky top-0">
