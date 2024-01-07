@@ -27,15 +27,6 @@ const Navbar = () => {
                    {menuItems}
                 </ul>
             </div>
-            <div className="navbar-end">
-            <a
-                        className="btn btn-primary bg-white border-0 text-sky-500"
-                        href={pdf}
-                        download="Resume_Anik(1).pdf"
-                        target="_blank"
-                        rel="noreferrer"
-                    >Resume</a>
-            </div>
         </div>
     );
 };
