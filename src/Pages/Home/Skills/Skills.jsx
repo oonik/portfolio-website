@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 
 const Skills = () => {
     return (
@@ -5,7 +7,7 @@ const Skills = () => {
             <h1 className="text-3xl lg:text-5xl font-bold text-sky-600 text-center">My Skills</h1>
             <section className="m-10 md:ml-32 lg:ml-44 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 <div className="border-2 w-32 flex flex-col justify-center items-center rounded-xl p-2 shadow-lg">
-                    <svg fill="rgb(2, 132, 199)" width="106px" height="106px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" stroke="rgb(2, 132, 199)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>html5</title> <path d="M11.677 13.196l-0.289-3.387 12.536 0.004 0.287-3.268-16.421-0.004 0.87 9.983h11.374l-0.406 4.27-3.627 1.002-3.683-1.009-0.234-2.63h-3.252l0.411 5.198 6.757 1.807 6.704-1.798 0.927-10.166h-11.954zM2.914 1.045h26.172l-2.38 26.874-10.734 3.037-10.673-3.038z"></path> </g></svg>
+                <svg fill="rgb(2, 132, 199)" width="106px" height="106px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" stroke="rgb(2, 132, 199)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>html5</title> <path d="M11.677 13.196l-0.289-3.387 12.536 0.004 0.287-3.268-16.421-0.004 0.87 9.983h11.374l-0.406 4.27-3.627 1.002-3.683-1.009-0.234-2.63h-3.252l0.411 5.198 6.757 1.807 6.704-1.798 0.927-10.166h-11.954zM2.914 1.045h26.172l-2.38 26.874-10.734 3.037-10.673-3.038z"></path> </g></svg>
                     <h3 className="text-lg text-white">HTML5</h3>
                 </div>
                 <div className="border-2 w-32 flex flex-col justify-center items-center rounded-xl p-2 shadow-lg">
